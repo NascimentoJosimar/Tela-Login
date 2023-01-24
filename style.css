@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #f48438, #ec298c);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+.card-group {
+    width: 250px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;    
+}
+
+img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-style-1 {
+    background-color: #f48438;
+    color: #fff;
+}
+
+.btn-style-1:hover {
+    outline-style:inset;
+    outline-color: #f48438;
+}
+
+.btn-style-2 {
+    background-color: #ec298c;
+    color: #fff;
+}
+
+.btn-style-2:hover {
+    outline-style:inset;
+    outline-color: #ec298c;
+}
